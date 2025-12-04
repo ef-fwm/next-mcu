@@ -19,7 +19,7 @@ img.onload = () => {
 
 function getDominantColor(data, width, height) {
     const colorMap = {}
-    const step = 25
+    const step = 30
 
     for (let y = 0; y < height; y += step) {
         for (let x = 0; x < width; x += step) {
