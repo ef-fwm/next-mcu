@@ -54,11 +54,19 @@
                 $data["days_until"] ?? 0,
                 $data["title"] ?? "Unknown",
                 $data["following_production"] ?? [],
-                $formattedDate,
+                $data["release_date"] ?? "Unknown",
                 $data["poster_url"] ?? "",
                 $data["overview"] ?? "No overview available",
                 $data["type"] ?? "Unknown"
             );
+        }
+
+        public function get_formatted_date(): string {
+            if ($this->release_date === 'Unknown') {
+                return 'Unknown';
+            }
+
+            return (new DateTime($this->release_date))->format('m/d/Y');
         }
 
         public function get_data(){
