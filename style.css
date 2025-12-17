@@ -248,7 +248,7 @@ button{
         grid-template-columns: 1fr;
     }
 
-    hgroup{
+    aside{
         align-items: center;
         text-align: center;
     }
