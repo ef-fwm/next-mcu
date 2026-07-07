@@ -13,7 +13,7 @@
 ### Fonts
 
 - **[Bebas Neue](https://bebasneue.com "bebasneue.com")** – Display typeface crafted for impactful headlines, captions, and title use. *Designed by Dharma Type’s Ryoichi Tsunekawa*.
-- **[Inter Tight](https://github.com/rsms/inter-gf-tight)** – Specialized version of *Inter* with tighter spacing, for display usage. *Designed by Rasmus Andersson*.
+- **[Inter Tight](https://fonts.google.com/specimen/Inter+Tight)** – Specialized version of *Inter* with tighter spacing, for display usage. *Designed by Rasmus Andersson*.
 
 ### Colors
 
